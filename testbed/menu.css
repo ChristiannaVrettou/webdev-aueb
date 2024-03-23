@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap");
+
+body {
+  /* background-color: #131314; */
+  /* background-image: url("./img/adam.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; */
+}
+
+.webdev-header {
+  color: #752024;
+  font-family: "Lora", serif;
+  font-size: 50px;
+  text-shadow: 1.5px 1.5px 2px black;
+  text-align: center;
+  /* border-color: blue;
+  border-width: 1px;
+  border-style: solid; */
+  /* border: 1px solid blue; */
+}
+
+.webdev-img {
+  width: 450px;
+  height: auto;
+}
+
+.menu,
+li {
+  display: inline-block;
+}
+
+.menu > li {
+  margin-right: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: black;
+  font-size: 20px;
+}
+
+.menu a:hover {
+  color: red;
+}
+
+.menu > li:first-child {
+  border: 1px solid black;
+}
+
+/* .menu > li:not(:first-child) {
+  border: 1px solid black;
+} */
+
+.webdev-text {
+  font-family: "Quicksand", sans-serif;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.5rem;
+  /* text-indent: 25px; */
+  color: black;
+}
+
+.icon-facebook,
+.icon-twitter {
+  color: blue;
+  font-size: 30px;
+}
+
+table,
+th,
+td {
+  border: 1px solid black;
+}
+
+table {
+  border-collapse: collapse;
+  width: 500px;
+}
+
+th {
+  color: blue;
+}
+
+.apply > a:hover {
+  color: red;
+}
+.apply > a:active {
+  color: green;
+}
