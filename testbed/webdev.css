@@ -1,0 +1,171 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Roboto+Serif:ital,opsz,wght@0,8..144,100..900;1,8..144,100..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body,
+html {
+  height: 100%;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto; /* στοίχιση στο κέντρο */
+}
+
+.header {
+  width: 100%; /* 100% του container */
+  margin: 0 auto; /* στοίχιση στο κέντρο του container */
+
+  background-color: #363636;
+
+  overflow: hidden;
+  display: flex;
+  position: fixed;
+  top: 0;
+
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 45%;
+  float: left;
+}
+
+.logo > img {
+  width: 100%;
+  height: auto;
+}
+
+.menu {
+  width: 55%;
+  float: right;
+}
+
+.menu > ul {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.slider {
+  width: 100%;
+  height: 100%; /* και αντίστοιχα να καλύπτουν όλη την οθόνη όλα τα parent elements */
+
+  background-image: url("./img/art2.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.title {
+  width: 70%;
+  margin: 0 auto;
+  padding-top: 150px;
+  padding-bottom: 60px;
+}
+
+.title > p {
+  text-align: center;
+  font-family: "Roboto serif", serif;
+  font-size: 35px;
+  color: white;
+}
+
+.subtitle {
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+
+.subtitle > p {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-size: 25px;
+  color: rgb(243, 237, 237);
+}
+
+.main {
+  width: 100%;
+  margin: 0 auto;
+  padding: 40px 25px;
+}
+
+.main-title {
+  width: 100%;
+  margin: 0 auto;
+  padding-bottom: 25px;
+}
+
+.main-title > h1 {
+  font-family: "Roboto serif", sans-serif;
+}
+
+.main-text {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main-text > p {
+  font-family: "Quicksand", sans-serif;
+  line-height: 25px;
+}
+
+.footer {
+  width: 100%;
+  margin: 0 auto;
+  padding: 30px 20px;
+  overflow: hidden;
+  background-color: #363636;
+  display: flex;
+  align-items: center;
+}
+
+.copyright {
+  width: 85%;
+  float: left;
+}
+
+.copyright > p {
+  font-family: "Quicksand", sans-serif;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.social {
+  width: 15%;
+  float: right;
+  display: flex;
+  align-items: center;
+}
+
+.social > p {
+  margin-right: 10px;
+  font-family: "Quicksand", sans-serif;
+  font-size: 0.8rem;
+  color: white;
+}
+
+.icon {
+  font-size: 30px;
+  color: white;
+  margin-right: 5px;
+}
